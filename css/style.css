@@ -1,0 +1,236 @@
+.cabecalhoPrincipal {
+    background-color: #D7D5FF;        
+}
+
+.cabecalhoPrincipal .container {
+    padding: 77px 7% 123px;
+}
+
+.cabecalhoPrincipal .container .conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalhoPrincipal .container .conteudo .informacao {
+    width: 389px;
+}
+
+.cabecalhoPrincipal .container .conteudo .informacao h1 {
+    font-family: 'Merriweather';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+}
+
+.cabecalhoPrincipal .container .conteudo .informacao h2 {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    margin: 20px 0 50px;
+}
+
+.cabecalhoPrincipal .container .conteudo .informacao button {
+    background: #6C63FF;
+    box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+    border-radius: 5px;
+    padding: 12px 50px;
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 20px;
+    border: none;   
+}
+
+.corpoPrincipal {
+    background: #F9F9F9;
+}
+
+.corpoPrincipal .container {
+    padding: 118px 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.corpoPrincipal .container .lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1357px;
+}
+
+.corpoPrincipal .container .lista .produto {
+    border: 5px solid transparent;
+    margin: 34px auto;
+}
+
+.corpoPrincipal .container .lista .produto .cor {
+    width: 340px;
+    height: 222px;
+}
+
+.corpoPrincipal .container .lista #produto-1 .cor {
+    background-color: #FF6363;
+}
+
+.corpoPrincipal .container .lista #produto-2 .cor {
+    background-color: #63ECFF;
+}
+
+.corpoPrincipal .container .lista #produto-3 .cor {
+    background-color: #F363FF;
+}
+
+.corpoPrincipal .container .lista #produto-4 .cor {
+    background-color: #63FF73;
+}
+
+.corpoPrincipal .container .lista #produto-5 .cor {
+    background-color: #FFDD63;
+}
+
+.corpoPrincipal .container .lista #produto-6 .cor {
+    background-color: #6663FF;
+}
+
+.corpoPrincipal .container .lista .produto .descricao {
+    width: 280px;
+    height: 141px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.corpoPrincipal .container .lista .produto .descricao h1 {
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.corpoPrincipal .container .lista .produto .descricao h2 {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.rodapePrincipal {
+    background-color: #D7D5FF;
+}
+
+.rodapePrincipal .container {
+    padding: 80px 0;
+}
+
+.rodapePrincipal .container .conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodapePrincipal .container .conteudo h1 {
+    font-family: 'Merriweather';
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 52.5px;
+}
+
+.rodapePrincipal .container .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodapePrincipal .container .formulario .caixa {
+    width: 453px;
+    height: 65px;
+    margin: 7.5px auto;
+    padding-left: 15px;
+    border-radius: 6px;
+    border: none;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.rodapePrincipal .container .formulario #mensagem {
+    height: 165px;
+    padding-top: 20px;
+    resize: none;
+}
+
+.rodapePrincipal .container .formulario .botao {
+    width: 471px;
+    height: 50px;
+    margin-top: 22.5px;
+    background-color: #6C63FF;
+    box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+@media(max-width: 906px) {
+    .corpoPrincipal .container {
+        padding: 75px 20px;   
+    }
+}
+
+@media(max-width: 768px) {
+    .cabecalhoPrincipal .container {
+        padding: 55px 20px 88px;
+    }
+
+    .cabecalhoPrincipal .container .conteudo {
+        flex-direction: column;
+    }
+
+    .cabecalhoPrincipal .container .conteudo .informacao {
+        width: 374px;
+    }
+
+    .cabecalhoPrincipal .container .conteudo .informacao h2 {
+        margin: 20px 0 30px;
+    }
+
+    .cabecalhoPrincipal .container .conteudo .imagem {
+        margin-top: 110px;
+    }
+
+    .cabecalhoPrincipal .container .conteudo .imagem img {
+        width: 350px;
+        height: auto;
+    }
+
+    .rodapePrincipal .container {
+        padding: 83px 20px 56px;
+    }
+
+    .rodapePrincipal .container .formulario .caixa {
+        width: 321px;
+        padding-left: 12px;
+    }
+
+    .rodapePrincipal .container .formulario .botao {
+        width: 335px;
+    }
+}
+
+@media(max-width: 500px) {
+    .corpoPrincipal .container .lista .produto .cor {
+        width: 100%;
+    }
+
+    .corpoPrincipal .container .lista .produto .descricao {
+        width: auto;
+    }
+}
